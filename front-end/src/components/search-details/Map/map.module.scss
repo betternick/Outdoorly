@@ -1,0 +1,10 @@
+.Map {
+  width: 75%;
+  aspect-ratio: 1/1;
+}
+@media only screen and (max-width: 600px) {
+  .Map {
+    width: 100%;
+	aspect-ratio: 1/1.5;
+  }
+}

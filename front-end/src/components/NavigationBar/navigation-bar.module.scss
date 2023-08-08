@@ -1,0 +1,43 @@
+.navBar {
+  display: flex;
+  min-width: 100%;
+  color: #667761;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.logout {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .navBar {
+    .header {
+		padding-top: 1%;
+      padding-bottom: 1%;
+    }
+  }
+}
+
+.pageName {
+  display: inline;
+  font-size: 2rem;
+  width: fit-content;
+  margin: 1%;
+  margin-left: 2%;
+}
+
+.pageName:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.navIcon {
+  transform: scale(1.5);
+  padding-right: 0.5rem;
+}
